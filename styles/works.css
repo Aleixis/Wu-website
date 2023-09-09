@@ -1,0 +1,146 @@
+nav {
+  margin-top: 5px;
+  padding: 0;
+  list-style: none; 
+  }
+  
+  
+  .flex-container {
+  display: flex;
+  margin-left:25%;
+  padding: 10px,0px; 
+  margin-right: 0px;
+  }
+  
+  .flex-container div {
+  width:30%;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  
+  }
+  
+  /* Style for links */
+  .flex-container a {
+  text-decoration: none;
+  color:white; 
+  font-family:Papyrus;
+  font-size: 25px;
+  font-weight: bold; 
+
+  }
+  
+
+
+  
+  
+  .header-container {
+  display: flex;
+  align-items: center; 
+  
+  
+  }
+  
+  
+  .header-container div {
+  padding: 0 20px; 
+  }
+  
+  .header-container .index,
+  .header-container .resume,
+  .header-container .skills,
+  .header-container .works {
+  margin-top: 10px;
+  padding-left: 50px;
+  padding-right: 30px;
+  cursor: pointer;
+  
+  }
+  
+  .flex-container a:hover {  
+font-size:35px ;
+color:rgb(245, 232, 120);
+}
+
+header{
+  position:relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 30px; 
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  border-bottom: #2e1036;
+  border-style:double;  
+ 
+}
+
+.button1 a {
+  text-decoration: none;
+  color: white; 
+  font-family:Papyrus;
+  font-size: 15px;
+  font-weight: bold; 
+}
+.button1 a:hover { 
+color:khaki;
+  font-size: 20px;
+}
+/*make these two buttons on the same line*/
+.button1 {
+  display: inline-block; 
+}
+
+.button2{
+  position: relative;
+  float: right;
+}
+.button{
+  margin-top: 20px;
+}
+
+footer{
+  text-align: center; 
+  font-size: 15px;
+  color: rgb(0, 0, 0); 
+  padding: 10px 0; 
+  font-family:Papyrus ;;
+}
+
+.footer a{
+  text-decoration: none; 
+  font-size: 20px; 
+  color: rgb(0, 0, 0); 
+  padding-right: 20px;
+  padding-right: 20px;
+}
+
+.footer a:hover {  
+  font-family: Brush Script MT;
+font-size:25px ;
+color:white; 
+}
+
+.work1, .work2, .work3{
+font-size:20px ;
+font-family:Papyrus ;
+font-weight: bold;
+color: rgb(0, 0, 0);
+padding-top: 50px;  
+color: rgb(223, 164, 112);
+}
+
+
+.div1,
+.div2,
+.div3 {
+display: inline-block;
+vertical-align: top; /* Align the divs at the top of the line */
+margin-right: 10px; /* Add some spacing between the divs 
+(adjust as needed) */
+width:380px; 
+}
+
+
+

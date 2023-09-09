@@ -1,0 +1,130 @@
+<!-- <p>Name:Wu Xinyu</p>
+    <p>Date: 2023.9.1</p>  -->
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Wu Xinyu</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Wu Xinyu">
+     
+    
+    <link rel="stylesheet" href="styles/resume.css"> 
+
+    <style>
+    body { 
+  background-image: url('pictures//background.jpg');
+/*background-color: #8c5b97;*/
+/* Replace 'your-image.jpg' with the path to your image */
+background-size: cover; /* Cover the entire viewport */
+background-position: center; /* Center the image */
+background-attachment: fixed; /* Fix the image in place (optional) */ 
+}
+
+/* Apply the blur effect */
+body::before {
+content: "";
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: inherit;
+filter: blur(3px); /* Adjust the blur amount as needed */
+z-index: -1; /* Place the blurred background behind the content */
+}
+
+.seperation{ 
+    border-bottom: 2px  dotted #315f16; 
+    
+}
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav >
+          <div class="flex-container"> 
+          <div class="index"><a href="index.html">Home  </a></div> 
+          <div class="works"><a href="work.html">Works </a></div>
+          <div class="contacts"><a href="index.html#contact">Contacts </a></div>
+      </div>
+    </nav>
+      </header>
+      <div class="button">
+    <div class="button1">
+        <a href="index.html">← Last Page</a>
+       </div>
+       <div class="button2">
+    <a href="work.html">Next Page →</a>
+    </div>
+    </div>
+    <div id='resume'><a name='resume'>⭐Resume⭐</a></div>
+    <div class="seperation">
+    <div class="title" ><p>Educaton</p></div>                                                 
+    <div class="link">  <a href="https://www.algonquincollege.com/online/program-info/computer-programming/"> 🔗Computer Programming</a>, Algonquin College ,Ottawa ON </div>
+   <div class ="paragraph"><b class= "b">📅Sep,2022-Present</b>
+        <ul><li>Dean's Honour List</li>
+        <li>GPA:3.85/4</li></ul></div> 
+       
+    <div class="link">  <a href="https://en.nuist.edu.cn/4260/listm.htm"> 🔗
+        Communication and Translation</a>, Nanjing University of Information, science and technology </div>
+    <div class ="paragraph"><b class = "b">📅Sept.2018-June.2022</b>
+        <ul> <li> Excellent Class Cadres Award</li>
+        <li>Bachelor's degree</li></ul></div> 
+    </div>
+        
+    <div class="seperation">
+    <div class=title><a name='skills'>Skills</a></div>  
+    <div class="skill js-bigFont">
+        <p class="bigFont">Is the font too small? Click this button↙↙↙</p>
+        <button class="bigFontButton" onclick="goBig();">Big</button>
+        <p class="hover-text">Click me!</p>
+
+        <ul>▲ Operating Systems: Linux, Windows</ul> 
+        <ul>▲ Programming Languages: Java, SQL, Bash Script, JSON</ul>
+        <ul>▲ Software Tools: Eclipse, VMware Workstation, XAMPP, Android Studio, Apache</ul>
+        <ul>▲ Java Standard Library Skills: Collections Framework, I/O Operations, Java APIs, Java Database Connectivity (JDBC)</ul>
+        <ul>▲ Interpersonal Skills: Detail-oriented, Adaptability, Team Player, Self-starter, Quick-learner, 
+        Collaborative, Client-focused, Results-oriented, Time management</ul></div>
+    </div>
+            
+
+    
+    <div class="title"><a name='labs'>Download Resume </a></div> 
+    <div class="pdf"><p><b>↘ Click on the picture or this  button → <button class="inlineButton"><a href="Wu Xinyu Resume.pdf">button</a> </button>  ← to view my resume file</b></p></div>
+    <a href="Wu Xinyu Resume.pdf">
+        <img src="pictures/resume.jpg" alt="resume picture" style="width:130px">
+      </a>
+    
+
+
+
+
+      <footer>
+        <nav class="footer"> 
+            <a href="index.html">🏠Home  </a>   
+            <a href="work.html">⌨Works </a>  
+            <a href="index.html#contact">📧Contacts </a>
+        <p>© Wu Xinyu's Website</p>
+      </footer>
+
+      <script>
+       const fontButton= document.querySelector('.js-bigFont');
+
+
+
+        function goBig(){
+            if(fontButton.classList.contains('bigger')){
+                fontButton.classList.remove('bigger')
+            }
+            else{
+                fontButton.classList.add('bigger')
+            }
+
+
+        }
+      </script>
+</body>
+
+</html>

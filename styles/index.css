@@ -1,0 +1,216 @@
+body{
+  background-color: #8c5b97;
+}
+.h1{text-size-adjust: 100%;
+font-family:Brush Script MT;
+color:white;
+font-weight: lighter;
+font-size: 60px;
+
+}
+
+nav {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+
+.flex-container {
+display: flex;
+padding: 0px,0px; 
+border-bottom:1px dotted black;
+margin-left: 100px;
+margin-right: 0px;
+}
+
+.flex-container div {
+padding: 30px 20px;
+}
+
+/* Style for links */
+.flex-container a {
+text-decoration: none;
+color: white; 
+font-family:Georgia;
+font-size: 20px;
+font-weight: bold; 
+
+}
+
+
+
+.header-container {
+display: flex;
+align-items: center; 
+
+
+}
+
+
+.header-container div {
+padding: 0 20px; 
+}
+
+.header-container .index,
+.header-container .resume,
+.header-container .skills,
+.header-container .works {
+margin-top: 10px;
+padding-left: 50px;
+padding-right: 30px;
+cursor: pointer;
+
+}
+
+.header-container .contact{
+margin-top: 10px;
+padding-left:0;
+}
+
+.header-container .works {
+ padding-right: 80px;}
+
+
+.header-container .github img {
+width: 30px;
+height:30px;
+border-radius: 20px; 
+}
+
+.header-container .linkedin img{
+width: 30px;
+height:30px;
+border-radius: 20px;
+background-color: black;
+}
+
+.header-container .h1{
+padding-left: 50px;
+}
+
+
+.me {
+width: 470px;
+height:450px;
+position: absolute; /* Use absolute positioning to set it to the right */
+right: 0; /* Align the right edge of the container with the right edge of the viewport */
+top: 110px;
+
+
+}
+
+.me-working img {
+width: 190px;
+height:230px;
+position: absolute;
+top: 300px; 
+left: 270px;
+z-index:1; 
+}
+
+.me-whole-face img {
+width: 320px;
+height:380px;
+bottom:0px;
+position: relative; 
+z-index: 0; }
+
+
+.picture-text{
+  color:white;
+  font-family:Lucida Handwriting;
+  padding-left: 330px;
+  margin-top: 100px;
+}
+
+.h2{
+  color:white;
+  font-size: 35px;
+  text-align:left;
+  font-family: Verdana;
+  padding: 5px 5px;
+  font-weight:bolder;
+  line-height: 1.5;
+  padding-top: 25px;
+  
+}
+
+.content1{
+width: 600px;
+height:500px;
+position: relative; /* Use absolute positioning to set it to the right */
+left: 50px;
+right:30px;
+
+}
+
+.h3{
+color:white;
+text-align:left;
+font-family: Verdana;
+font-size: 15px;
+font-weight: lighter;
+padding-left: 5px;
+line-height: 2.5;
+padding-bottom: 0;
+
+}
+
+.page2{
+  background-color: rgb(246, 235, 255);
+  padding-left: 50px;
+  margin-top: 50px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  }
+  
+  .page2 .h4{
+    color: rgb(76, 74, 74);
+    font-size: 30px;
+    text-align:center;
+    font-family: Verdana;
+    padding: 5px 5px;
+    font-weight:bolder;
+    line-height: 1.5;
+    padding-top: 25px;
+  }
+  
+  .like{
+    position:absolute;
+    right:10px;
+  }
+  
+  .like img{
+   width: 30px;
+   position: relative;
+  }
+  
+  .button-like{
+    padding: 0; /* Reset padding */
+      margin: 0; /* Reset margin */
+    background-color: transparent;
+    border: 0;
+    border-radius: 100%;
+    width:30px;
+    height:30px;
+    cursor: pointer;
+  }
+  
+  
+  .button-like-click{
+    background-color:pink;
+    border: 0;
+    border-radius: 100%;
+    width:30px;
+    height:30px;
+    cursor: pointer;
+  }
+  
+  .thankNote{
+    color:rgb(226, 94, 116);
+    font-size: 25px;
+    font-weight: lighter;
+    font-family: Brush Script MT;
+  }

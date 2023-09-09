@@ -1,0 +1,197 @@
+<!-- <p>Name:Wu Xinyu</p>
+    <p>Date: 2023.9.1</p>  -->
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Wu Xinyu's website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+    <meta name="author" content="Wu Xinyu">
+    
+    
+    <link rel="stylesheet" href="styles/index-fixed.css">
+
+   <style> 
+
+   </style>
+</head>
+
+<body>
+  <div class="page1">
+  <div class="header-container">
+      
+      <h1 class="h1">Wu Xinyu</h1>
+
+      <nav >
+        <div class="flex-container" >
+
+          <div class="resume"><a href="resume.html">Resume</a></div> 
+          <div class="works"><a href="work.html"> Works</a></div>
+          <div class="contact"><a href="#contact" class="scroll-button">Contact</a></div>
+         
+          
+         
+
+          <div class="github" style ="padding-left: 90px;"><a href="https://github.com/Aleixis"><img src="pictures/github.png"></a></div>
+          <div class="linkedin" style ="padding-left: 50px;"><a href="https://www.linkedin.com/in/xinyu-wu-67929121a/"><img src="pictures/linkedin.png"></a></div>
+    </div>
+  </nav>
+
+</div>
+
+
+
+<div class="content-container">
+<div class="content1">
+  
+  <h2 class="h2">
+    Sloving problems and creating effecient codes is my passion
+    
+  </h2>
+
+  <h3 class="h3">
+    I'm a passionate computer developer, programmer, and coder. With a strong foundation in software development and a genuine love for coding, I thrive on solving complex problems and creating innovative solutions. 
+    
+  </h3>
+
+</div> 
+
+  <div class="me">
+    
+
+    <div class="picture-text">  Hey,I'm Wu!</div>
+
+    <div class="me-whole-face">
+      <img src="pictures/me-work.jpg">
+    </div>
+   
+  </div>
+</div>
+</div>
+
+<div class="page2">
+  <h4 class="h4">
+    About Me
+    <div class="like" >
+      <button onclick="like();" class="button-like js-button-like" >
+      <img src="pictures/like.png">
+    </button>
+    </div>
+
+   
+  </h4>
+  <p class="thankNote js-thankNote"> </p>
+ 
+
+
+          <div class="column column1">
+            <h1 class="skills-title1">
+              Frontend Developer
+            </h1>
+            <p class="skill1P1">I enjoy creating neat, attractive, and interactive webpages from scratch, and I like to incorporate creative ideas into the browser, and leave users with a lasting impression.</p>
+            <p class="skill1P2">Languages</p>
+            <p class="skill1P3">HTML ,  CSS ,  JavaScript ,  PHP ,  jQuery</p>
+            <p class="skill1P4">Tools</p>
+            <ul >
+              <ul>Git</ul>
+              <ul>Terminal</ul>
+              <ul>Bootstrap</ul>
+              <ul>Visual Studio</ul> 
+              <ul>Chrome DevTools</ul>  
+            </ul>
+          </div>
+          <div class="column">
+            <h1 class="skills-title2">
+              Software Developer 
+            </h1>
+            <p class="skill2P1"> I am passionate about crafting efficient, functional, and innovative software solutions and thrive on the opportunity to design and build robust applications that deliver exceptional experiences. </p>
+            <p class="skill2P2">  
+              Languages
+            </p>
+            <p class="skill2P3">
+              JavaScript ,  Java ,  SQL ,  Kotlin ,  Swift 
+            </p>
+            <p class="skill2P4">  
+              Tools
+            </p>
+            <ul >
+              <ul>Xcode</ul> 
+              <ul>Eclipse</ul>
+              <ul>NetBeans</ul> 
+              <ul>Visual Studio</ul> 
+              <ul>Android Studio</ul>  
+            </ul>
+          </div> 
+</div>
+
+
+<p>..............................................................................................................................................................................................................................................................................................................  </p>
+
+  
+
+<div id="contact" class="page3">
+  <p style="padding-top: 50px; font-family: Courier New; font-weight: bold ; color: #704978; font-size: 30px; text-align: center;">Contacts</p>
+  <div class="contact">
+    <div class="contact-item">
+      <p class="linkedin">Linkedin</p>
+      <div class="linkedinPic"><a href="https://www.linkedin.com/in/xinyu-wu-67929121a/"><img src="pictures/linkedin.png" alt="LinkedIn"></a></div>
+    </div>
+    <div class="contact-item">
+      <p class="email">Email Address </p>
+      <div class="emailPic"><a href="email.html"> <img src="pictures/email.jpg" alt="Email"></a></div>
+    </div>
+    <div class="contact-item">
+      <p class="email">Email me now</p>
+      <div class="emailMePic"><a href=" mailto:wu000301@algonquinlive.com"> <img src="pictures/email2.jpg" alt="Email"></a></div>
+    </div>
+  </div>
+  
+
+</div>
+
+
+
+<div class="footer">
+<footer>
+  <nav >  
+      <a href="resume.html">📃Resume </a>  
+      <a href="work.html">⌨Works </a>   
+  <p>© Wu Xinyu's Website</p>
+</footer>
+</div>
+
+
+
+
+
+
+<script>
+
+
+
+function like() {
+  const likeElement = document.querySelector('.js-button-like');
+  const thankNoteElement = document.querySelector('.js-thankNote');//do not use .innerText this step
+
+  if (likeElement.classList.contains('button-like-click')) {
+    thankNoteElement.innerText = ''; 
+    likeElement.classList.remove('button-like-click');
+  } else {
+    thankNoteElement.innerText = 'I am happy you like it! ♥'; 
+    likeElement.classList.add('button-like-click');
+  }
+}
+
+
+
+document.querySelector('.scroll-button').addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector('#contact').scrollIntoView({ behavior: 'smooth' });
+    });
+
+</script>
+
+</body>
+
+</html>
